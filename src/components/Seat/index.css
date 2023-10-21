@@ -1,0 +1,44 @@
+.home-seat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.ticket-types {
+  display: flex;
+  margin-right: 9px;
+}
+
+.selector-title {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #745df7;
+  margin-right: 10px;
+}
+
+.selector-type {
+  height: 25px;
+  border: 1px solid #ef23f6;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  padding: 0px 15px;
+}
+
+.quantity-selector {
+  width: 55px;
+  border: 1px solid #ef23f6;
+  border-radius: 3px;
+  outline: none;
+  height: 25px;
+  cursor: pointer;
+}

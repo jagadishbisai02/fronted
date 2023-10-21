@@ -1,0 +1,36 @@
+.seat-container-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container {
+  width: 485px;
+  height: 192px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  border: 1px solid #2e1ee3;
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}
+
+.row p {
+  width: 25px;
+  margin-right: 45px;
+  padding: 0px;
+}
+
+.seat {
+  height: 12px;
+  width: 15px;
+  margin: 3px;
+  border: 1px solid #6f7a72;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}

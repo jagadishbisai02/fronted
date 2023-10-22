@@ -42,3 +42,13 @@
   height: 25px;
   cursor: pointer;
 }
+
+.proceed-btn{
+  margin: 25px;
+  background: #e70a0a;
+  border: none;
+  color: #ffffff;
+  padding: 6px 16px;
+  cursor: pointer;
+  outline: none;
+}

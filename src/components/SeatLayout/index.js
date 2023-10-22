@@ -604,7 +604,7 @@ const SeatLayout = () => {
           </div>
         </div>
         <lable htmlFor="seatAvailablity">Key to Seat Layout: </lable>
-        <ul id="seatAvailablity">
+        <ul id="seatAvailablity" className="layouts">
           <li>
             <div className="seat"></div>
             <p>Available</p>

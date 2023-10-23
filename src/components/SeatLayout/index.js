@@ -12,7 +12,7 @@ class SeatLayout extends Component {
           event.target.className = "seat-color";
         }
       } else {
-        alert("your selected over the selected quantity");
+        alert("your select over the selected quantity");
       }
     } else {
       alert("Please select the number of seats");
